@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  flex-grow: 1
+}
+
+a {
+  text-align: center;
+  transition: 1s;
+  display: block;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a.active {
+  border-bottom: 10px solid yellowgreen;
+}
+
+section {
+  padding-top: 30px;
+  text-align: center
+}
+
+a:hover {
+  background-color: green;
+  color: grey;
+}
