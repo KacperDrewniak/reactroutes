@@ -6,7 +6,7 @@ const Home = () => <h1>Strona startowa</h1>;
 const News = () => <h1>Aktualności</h1>;
 const Contact = () => <h1>Kontakt do nas</h1>;
 
-const ErrorPage = () => <h1>Strona nie istnieje</h1>;
+const ErrorPage = () => <h1>Strona nie istnieje 404</h1>;
 
 class App extends Component {
   state = {};
